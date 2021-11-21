@@ -1,2 +1,4 @@
 allow kernel kernel:capability { kill };
+allow kernel kernel:qipcrtr_socket { create };
+
 dontaudit kernel self:capability { dac_override dac_read_search };
