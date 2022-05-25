@@ -259,6 +259,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    fstab.zram \
     init.class_main.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
