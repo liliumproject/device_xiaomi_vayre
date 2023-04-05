@@ -131,6 +131,9 @@ vendor.gralloc.enable_fb_ubwc=1
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
