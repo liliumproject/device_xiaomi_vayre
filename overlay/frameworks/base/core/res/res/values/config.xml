@@ -281,11 +281,6 @@
         <item>OPM1.171019.011</item> <!-- Build.ID -->
     </string-array>
 
-    <!-- The list of components which should be automatically disabled for a specific device. -->
-    <string-array name="config_deviceDisabledComponents" translatable="false">
-        <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
-    </string-array>
-    
     <!-- Flag indicating whether the surface flinger has limited
          alpha compositing functionality in hardware.  If set, the window
          manager will disable alpha trasformation in animations where not
