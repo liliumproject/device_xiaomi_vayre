@@ -36,3 +36,6 @@
 
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
+
+# Metadata
+/dev/block/platform/soc/c0c4000\.sdhci/by-name/logdump                                                  u:object_r:metadata_block_device:s0
