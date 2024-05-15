@@ -152,22 +152,69 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
-# DRM - from S62Pro
-vendor/bin/qseecomd|97eeb3f297d16e0364e73f8e78ccb7a07e70f093
-vendor/lib/libQSEEComAPI.so|14d85d1661f11fed27a99f618370de21abfbf1b9
-vendor/lib/libsdedrm.so|752fa74723368e6bde29cbf004fe31d6f33ceb97
-vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
-vendor/lib64/libGPreqcancel_svc.so|5369bb41c214c0bd3782438c0488cd2dba8cb667
-vendor/lib64/libQSEEComAPI.so|7ad0a71938c1de5dbb54a52fb68285ac08f0a130
-vendor/lib64/libSecureUILib.so|b98555b76083a897fc9bbfc27778750d2d47817a
-vendor/lib64/libStDrvInt.so|6091f1f496b87730f9a77e9ede504c4fa99c608a
-vendor/lib64/libdrmfs.so|d01f7964b64bfabd56afea030a2e874f5b3af266
-vendor/lib64/libdrmtime.so|9aca2a5224378365232933b06a742a2498dd7468
-vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
-vendor/lib64/librpmb.so|eac8411b60e4842b0fee4c9145dd9cdc3e24a67e
-vendor/lib64/libsdedrm.so|f02d7bef5f9fa3f1265b5a8b3b8ab481a4cedee2
-vendor/lib64/libsecureui_svcsock.so|6af612f057f4f28720d6db9b300b58c883da6539
-vendor/lib64/libssd.so|774488b88c37053067b3cad551ac95360c03edd3
+# DRM - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/qseecomd|5333351a5f3a7ed85e9b6c7137a885bb115c7116
+vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
+vendor/lib/libQSEEComAPI.so|9b9da7d1ad2465cf5411f59b2a2f9413a1694b58
+vendor/lib/libsdedrm.so|92b0c1666bbe574c94bcdb72a79555014a54ab25
+vendor/lib64/libGPQTEEC_vendor.so|12228f69dfa3f6c02236e1053c617da34c0d5580
+vendor/lib64/libGPreqcancel.so|b4540426976608f8e72e863a34fbee03a08f8fc3
+vendor/lib64/libGPreqcancel_svc.so|fdeb8d658b8817ed921d7197b2f6326e56de0ffc
+vendor/lib64/libGPTEE_vendor.so|b4a96a9325e52fec7979ab29c94eb4658a65fb31
+vendor/lib64/libQSEEComAPI.so|cdc34a4e48a34ee4e70c5d7a90060f102ce18183
+vendor/lib64/libSecureUILib.so|3921a91dea35c20788ff8be5e0f591bce965c724
+vendor/lib64/libStDrvInt.so|e221db12c6988911d0d626217f8b156a2e1841aa
+vendor/lib64/libdrmfs.so|40e0ea780e85a17a6f9f1a184828c2e8f2283b87
+vendor/lib64/libdrmtime.so|5876ac16062d1d97e38a061adb93b2a56f1699b9
+vendor/lib64/libqisl.so|4b6cb5542193e758067a3b5819cc4a6b76bf87cf
+vendor/lib64/librpmb.so|f0c24388e57432f43fbeb2cce492fc9f2be9ba26
+vendor/lib64/libsdedrm.so|be509d66c8cd05ca273e7097bb1b7819aecd7304
+vendor/lib64/libsecureui.so|f83a88c11e35b3e373034faa44dc0ce36608a3fe
+vendor/lib64/libsecureui_svcsock.so|f3f13a8d9426359b921960167978f241367ae6ff
+vendor/lib64/libsi.so|de8345b2c87e8fe445df0c6acc6fcc3496f6f79c
+vendor/lib64/libssd.so|9f00c129db72613ab46acf2627425ab99fbdfb84
+vendor/lib64/libtrustedapploader.so|28ff5ea6321916f665fc465189543f62f77c7173
+vendor/lib64/libtzdrmgenprov.so|a6125df0edfc780796cc231141ae46b57da45020
+
+# DRM (Qualcomm Trusted Execution Enviroment) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|f291f50f5c28bd2b240253ea4105c2e9aee60304
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|70fca712b8677ece544daa4fd8244ddf30df0373
+vendor/lib/libQTEEConnector_vendor.so|fe7ff5d8731718973df5936ba6b166290e6d9bbe
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|3276a5c89d9ea5f463279da966b048ffc51e1d30
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|d7b4c4b3ed51bf8da576a306eb66d09195821afb
+vendor/lib64/libQTEEConnector_vendor.so|cbe06ac3abdb8282cbff401a763905ccee10ce0b
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|fab8de6637f2af981a071706e5bf1ff64a3338ad
+
+# DRM (TUI) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so|c853d7b34dd1d3fddf5953cca34b1a6caf7441ee
+system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so|d80150b45ba243e8ff9f2dbd180a9b0f837aeb3e
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|e631174faaaa43f5376440828c4ec25ff95eb3d6
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|0564931cf8bf36629690f4db02f10b88b1a227b0
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|cfd777100db61dd183e7e4ba644150f7066db389
+
+# DRM (Widevine) - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine|c77129c2767ceaa55850455c0c80544defd09b5b
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
+vendor/lib/libcpion.so|c5e659d2bd0ab4c182f1a01047a7bcf95b268c7e
+vendor/lib/libmm-hdcpmgr.so|9703d954ada46e5fbeffc73aa318037f915e088c
+vendor/lib64/mediadrm/libwvdrmengine.so|b45c19f3f113b512f96de3e28a2519373f1da916
+vendor/lib64/libbase64.so|134ddff2bb3d646bb2cd8ffcabd21cb16f6d984c
+vendor/lib64/libcpion.so|ee9f0c28c3e0cc03fb6f7e4abba7b2f45e6de014
+vendor/lib64/libhdcpsrm.so|9c0943fc4e3e3546900382821786145ae4ca634b
+vendor/lib64/libmm-hdcpmgr.so|a06cea03836085c088b04a2ce39048bf191e9a3f
+vendor/lib64/librmp.so|530fddca962ec88bf683e3999705b44b53deaf89
+vendor/lib64/libwvhidl.so|39a5766f1b64c9bddc2af63421edcc515fe030ea
+
+# DRM Widevine) - from lavender V12.0.1.0.QFGMIXM
+vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
+vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
+
+# DRM - from Miatoll
+vendor/lib64/libops.so|79efbf6cad2617a6d1de6c649cca9ddeb1a0c1e5
+vendor/lib64/libspl.so|e2b3e2dd28b0eee567d72de696cd1e01288ae06f
 
 # DSP - from S62Pro
 vendor/bin/dspservice|a8eb76af6150bbf29c12b76b00ab469b99f563f7
@@ -536,14 +583,3 @@ vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
 vendor/bin/time_daemon|d647fa02dfb28b6cb981c4e77daee75a67406351
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|c8e0bbc9c6b7b5beddba43bc4125a9eaeba7c79f
-
-# TUI - from jasmine
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc4479497fa666640612f06fbb4
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b4b412a672
-
-# Widevine - from S62Pro
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
