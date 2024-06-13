@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     liba2dpoffload \
     libaudio-resampler \
+    libaudioroute.vendor \
     libhdmiedid \
     libhfp \
     libqcompostprocbundle \
@@ -133,6 +134,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5:64 \
     android.hardware.camera.provider@2.6:64 \
     libdng_sdk.vendor \
+    libpng.vendor:32 \
+    libutilscallstack.vendor \
     vendor.qti.hardware.camera.device@1.0:64
 
 # Component overrides
@@ -245,6 +248,7 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
     android.hidl.memory@1.0.vendor \
+    libhidlmemory.vendor:64 \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -380,7 +384,12 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor \
     libjson \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+
+PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
@@ -393,6 +402,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libprotobuf-cpp-full \
+    libnetutils.vendor \
     librmnetctl \
     rild
 
@@ -420,7 +430,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors@1.0-impl:64 \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    libpower.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -435,6 +446,7 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
+    libion.vendor \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
