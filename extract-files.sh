@@ -35,9 +35,6 @@ while [ "${#}" -gt 0 ]; do
         --only-common )
                 ONLY_COMMON=true
                 ;;
-        --only-device-common )
-                ONLY_DEVICE_COMMON=true
-                ;;
         --only-target )
                 ONLY_TARGET=true
                 ;;
@@ -86,20 +83,12 @@ if [ -z "${ONLY_TARGET}" ] && [ -z "${ONLY_DEVICE_COMMON}" ]; then
     extract "${MY_DIR}/proprietary-files-ir.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 fi
 
-if [ -z "${ONLY_COMMON}" ] && [ -z "${ONLY_TARGET}" ] && [ -s "${MY_DIR}/../${DEVICE_SPECIFIED_COMMON}/proprietary-files.txt" ];then
-    # Reinitialize the helper for device specified common
-    source "${MY_DIR}/../${DEVICE_SPECIFIED_COMMON}/extract-files.sh"
-    setup_vendor "${DEVICE_SPECIFIED_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
-
-    extract "${MY_DIR}/../${DEVICE_SPECIFIED_COMMON}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
-fi
-
-if [ -z "${ONLY_COMMON}" ] && [ -z "${ONLY_DEVICE_COMMON}" ] && [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt" ]; then
+if [ -z "${ONLY_COMMON}" ] && [ -z "${ONLY_DEVICE_COMMON}" ] && [ -s "${MY_DIR}/${DEVICE}/proprietary-files.txt" ]; then
     # Reinitialize the helper for device
-    source "${MY_DIR}/../${DEVICE}/extract-files.sh"
+    source "${MY_DIR}/${DEVICE}/extract-files.sh"
     setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
-    extract "${MY_DIR}/../${DEVICE}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+    extract "${MY_DIR}/${DEVICE}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 fi
 
 "${MY_DIR}/setup-makefiles.sh"

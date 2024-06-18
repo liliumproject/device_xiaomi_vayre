@@ -1,20 +1,12 @@
-This repository contains common device configuration for Xiaomi sdm660-based devices
+> Copyright (C) 2024 Lilium Project
 
-## Copyright
+Android device configuration for Xiaomi Vayre Platform.
 
-```
-#
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
+### Supported devices
+
+| Device | Codename |
+|-|:-:|
+| Xiaomi Redmi Note 5 Pro/AI | whyred |
+| Xiaomi Redmi Note 6 Pro | tulip |
+| Xiaomi Redmi Note 7 | lavender |
+| Xiaomi Mi 8 Lite | platina |
