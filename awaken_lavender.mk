@@ -12,7 +12,7 @@ $(call inherit-product, $(LOCAL_PATH)/device-lavender.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := lavender
-PRODUCT_NAME := lineage_lavender
+PRODUCT_NAME := awaken_lavender
 PRODUCT_MODEL := Redmi Note 7
 
 TARGET_VENDOR_PRODUCT_NAME := lavender

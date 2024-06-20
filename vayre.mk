@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, device/xiaomi/vayre/lineage.mk)
+# Inherit some common AwakenOS stuff
+$(call inherit-product, device/xiaomi/vayre/awaken.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi

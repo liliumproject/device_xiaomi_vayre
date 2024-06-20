@@ -14,22 +14,21 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lavender.mk \
-    $(LOCAL_DIR)/lineage_platina.mk \
-    $(LOCAL_DIR)/lineage_tulip.mk \
-    $(LOCAL_DIR)/lineage_whyred.mk
+    $(LOCAL_DIR)/awaken_lavender.mk \
+    $(LOCAL_DIR)/awaken_platina.mk \
+    $(LOCAL_DIR)/awaken_tulip.mk \
+    $(LOCAL_DIR)/awaken_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lavender-user \
-    lineage_lavender-userdebug \
-    lineage_lavender-eng \
-    lineage_platina-user \
-    lineage_platina-userdebug \
-    lineage_platina-eng \
-    lineage_tulip-user \
-    lineage_tulip-userdebug \
-    lineage_tulip-eng \
-    lineage_whyred-user \
-    lineage_whyred-userdebug \
-    lineage_whyred-eng \
-		
+    awaken_lavender-user \
+    awaken_lavender-userdebug \
+    awaken_lavender-eng \
+    awaken_platina-user \
+    awaken_platina-userdebug \
+    awaken_platina-eng \
+    awaken_tulip-user \
+    awaken_tulip-userdebug \
+    awaken_tulip-eng \
+    awaken_whyred-user \
+    awaken_whyred-userdebug \
+    awaken_whyred-eng
