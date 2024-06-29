@@ -14,22 +14,22 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lavender.mk \
-    $(LOCAL_DIR)/lineage_platina.mk \
-    $(LOCAL_DIR)/lineage_tulip.mk \
-    $(LOCAL_DIR)/lineage_whyred.mk
+    $(LOCAL_DIR)/halcyon_lavender.mk \
+    $(LOCAL_DIR)/halcyon_platina.mk \
+    $(LOCAL_DIR)/halcyon_tulip.mk \
+    $(LOCAL_DIR)/halcyon_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lavender-user \
-    lineage_lavender-userdebug \
-    lineage_lavender-eng \
-    lineage_platina-user \
-    lineage_platina-userdebug \
-    lineage_platina-eng \
-    lineage_tulip-user \
-    lineage_tulip-userdebug \
-    lineage_tulip-eng \
-    lineage_whyred-user \
-    lineage_whyred-userdebug \
-    lineage_whyred-eng \
+    halcyon_lavender-user \
+    halcyon_lavender-userdebug \
+    halcyon_lavender-eng \
+    halcyon_platina-user \
+    halcyon_platina-userdebug \
+    halcyon_platina-eng \
+    halcyon_tulip-user \
+    halcyon_tulip-userdebug \
+    halcyon_tulip-eng \
+    halcyon_whyred-user \
+    halcyon_whyred-userdebug \
+    halcyon_whyred-eng \
 		

@@ -12,7 +12,7 @@ $(call inherit-product, $(LOCAL_PATH)/device-tulip.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := tulip
-PRODUCT_NAME := lineage_tulip
+PRODUCT_NAME := halcyon_tulip
 PRODUCT_MODEL := Redmi Note 6 Pro
 
 TARGET_VENDOR_PRODUCT_NAME := tulip

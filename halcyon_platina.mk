@@ -12,7 +12,7 @@ $(call inherit-product, $(LOCAL_PATH)/device-platina.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := platina
-PRODUCT_NAME := lineage_platina
+PRODUCT_NAME := halcyon_platina
 PRODUCT_MODEL := MI 8 Lite
 
 TARGET_VENDOR_PRODUCT_NAME := platina

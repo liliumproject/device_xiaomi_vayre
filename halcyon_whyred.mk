@@ -12,7 +12,7 @@ $(call inherit-product, $(LOCAL_PATH)/device-whyred.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := whyred
-PRODUCT_NAME := lineage_whyred
+PRODUCT_NAME := halcyon_whyred
 PRODUCT_MODEL := Redmi Note 5
 
 TARGET_VENDOR_PRODUCT_NAME := whyred
