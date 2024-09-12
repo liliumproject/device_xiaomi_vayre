@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
 # Consumerir
 BOARD_HAVE_IR := true
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    com.fingerprints.extension@1.0.vendor
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
