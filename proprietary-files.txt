@@ -206,9 +206,9 @@ vendor/lib64/libcpion.so|ee9f0c28c3e0cc03fb6f7e4abba7b2f45e6de014
 vendor/lib64/libhdcpsrm.so|9c0943fc4e3e3546900382821786145ae4ca634b
 vendor/lib64/libmm-hdcpmgr.so|a06cea03836085c088b04a2ce39048bf191e9a3f
 vendor/lib64/librmp.so|530fddca962ec88bf683e3999705b44b53deaf89
-vendor/lib64/libwvhidl.so|39a5766f1b64c9bddc2af63421edcc515fe030ea
+vendor/lib64/libwvhidl.so|2d9a72110ad9365250629d94a18a6227b10e0be8
 
-# DRM Widevine) - from lavender V12.0.1.0.QFGMIXM
+# DRM (Widevine) - from lavender V12.0.1.0.QFGMIXM
 vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
 vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
 
