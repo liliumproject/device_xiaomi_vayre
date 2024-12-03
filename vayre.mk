@@ -141,6 +141,10 @@ PRODUCT_PACKAGES += \
     libutilscallstack.vendor \
     vendor.qti.hardware.camera.device@1.0:64
 
+PRODUCT_PACKAGES += \
+    libpiex \
+    libpiex_shim
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
