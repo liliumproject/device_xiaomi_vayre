@@ -80,6 +80,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl:32 \
     android.hardware.audio.effect@7.0-impl:32 \
+    android.hardware.audio.sounddose-vendor-impl \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.3-impl:32
@@ -359,7 +360,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libstagefright_softomx_plugin.vendor
-    
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
