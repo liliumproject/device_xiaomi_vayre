@@ -431,7 +431,7 @@ PRODUCT_PACKAGES += \
     extphonelib-product \
     extphonelib.xml \
     extphonelib_product.xml
-
+    
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
@@ -452,6 +452,12 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
+# Symlinks
+PRODUCT_PACKAGES += \
+    vendor_bt_firmware_mountpoint \
+    vendor_dsp_mountpoint \
+    vendor_firmware_mnt_mountpoint
 
 # Telephony
 PRODUCT_PACKAGES += \
